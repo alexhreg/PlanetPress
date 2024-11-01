@@ -99,7 +99,7 @@ async function getEuropeNews() {
                 <article class="europe-news-card">
                     <div class="save-button"><img src="./icons/bookmark-white.svg" alt="save"></div>
                     <img class="article-img" src="${res.results[0]['multimedia'][0].url}" alt="placeholder">
-                    <h4 class="article-title">Blah blah blah blah blah blah blahblahblah blahblah blah blah blahblah blahblah blah blah blahblah</h4>
+                    <h4 class="article-title">${res.results[0].title}</h4>
                     <div class="abstract">
                         <h4 class="abstract-title">${res.results[0].title}</h4>
                         <p>${res.results[0].abstract}</p>
